@@ -1,0 +1,6 @@
+python-telegram-bot
+google-cloud-firestore
+firebase-admin
+aiohttp
+Flask
+gunicorn
