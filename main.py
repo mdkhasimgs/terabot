@@ -69,7 +69,7 @@ async def check_force_join(update: Update,
             FORCE_JOIN_CHANNEL, update.effective_user.id)
         if chat_member.status not in ["member", "administrator", "creator"]:
             await update.message.reply_text(
-                "Join the required channel to use this bot!",
+                "Join the required channel to use this bot! \n @TERACLOUD_STORAGE",
                 reply_markup=await force_join_keyboard())
             return False
     except Exception:
