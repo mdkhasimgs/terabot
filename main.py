@@ -14,7 +14,7 @@ from telegram.ext import (Application, CommandHandler, MessageHandler, filters,
 import aiohttp
 from flask import Flask
 # ---------------- CONFIG ----------------
-BOT_TOKEN = "8277207454:AAF96fJ_xFrh0OTWV_EY_kki53dSnvdbk24"
+BOT_TOKEN = "8277207454:AAHntxgp2vKdhUyr_Wo6aUhmj0jNk2LZUL0"
 ADMIN_ID = 7598595878
 FORCE_JOIN_CHANNEL = "@TERACLOUD_STORAGE"
 UPLOAD_CHANNEL = "@terabo_storessu"
